@@ -1,0 +1,50 @@
+
+  /* Styling the unique contact section */
+  .contact-section {
+    padding: 80px 0;
+   background-color:  black;
+    color: white;
+  }
+  
+  .contact-info h2 {
+    font-size: 36px;
+  
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    line-height: 1.8;
+  
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    font-size: 18px;
+    
+    margin-bottom: 15px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 60px 0;
+    }
+  
+    .contact-info h2 {
+      font-size: 30px;
+    }
+  
+    .contact-info p {
+      font-size: 16px;
+    }
+  
+    .contact-list li {
+      font-size: 16px;
+    }
+  }
+  
